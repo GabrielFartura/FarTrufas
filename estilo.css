@@ -14,3 +14,64 @@ option{
     background-color: rgb(55, 5, 119);
     color: white;
 }
+
+@keyframes anda {
+    0%{
+        transform: translateX(0);
+        color: pink ;
+
+    }
+    10%{
+        color: blueviolet;
+    }
+    20%{
+        color: crimson;
+    }
+    30%{
+        color: aqua;
+    }
+    40%{
+        color: blue;
+    }
+    50%{
+        color: pink ;
+        transform: translateX(1200px);
+    }
+    60%{
+        color: blueviolet;
+    }
+    70%{
+        color: crimson;
+    }
+    80%{
+        color: aqua;
+    }
+    90%{
+        color: blue;
+    }
+    100%{
+        transform:translateX(0);
+        color: green;
+    }
+}
+#anima-time div{
+    width: 80px;
+    font-size: 50px;
+    height: 50px;
+}
+
+#anima-time div:nth-child(1){
+/*
+    animation-name: anda;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+*/
+    
+    animation: anda 5s  ease-in-out infinite;               
+    
+}
+
+#anima-time div:nth-child(1):hover{
+    animation-play-state: paused;  
+    
+}
