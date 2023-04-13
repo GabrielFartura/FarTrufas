@@ -35,7 +35,7 @@ option{
     }
     50%{
         color: pink ;
-        transform: translateX(1200px);
+        transform: translateX(300px);
     }
     60%{
         color: blueviolet;
