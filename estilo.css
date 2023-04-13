@@ -54,13 +54,7 @@ option{
         color: green;
     }
 }
-#anima-time div{
-    width: 80px;
-    font-size: 50px;
-    height: 50px;
-}
-
-#anima-time div:nth-child(1){
+#anima-time {
 /*
     animation-name: anda;
     animation-duration: 2s;
@@ -71,7 +65,7 @@ option{
     
 }
 
-#anima-time div:nth-child(1):hover{
+#anima-time:hover{
     animation-play-state: paused;  
     
 }
