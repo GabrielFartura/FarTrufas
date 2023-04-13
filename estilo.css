@@ -17,7 +17,7 @@ option{
 
 @keyframes anda {
     0%{
-        transform: translateX(0);
+        
         color: pink ;
 
     }
@@ -35,7 +35,7 @@ option{
     }
     50%{
         color: pink ;
-        transform: translateX(300px);
+       
     }
     60%{
         color: blueviolet;
@@ -50,7 +50,7 @@ option{
         color: blue;
     }
     100%{
-        transform:translateX(0);
+       
         color: green;
     }
 }
