@@ -17,7 +17,7 @@ option{
 
 @keyframes anda {
     0%{
-        
+      
         color: pink ;
 
     }
@@ -35,7 +35,7 @@ option{
     }
     50%{
         color: pink ;
-       
+        
     }
     60%{
         color: blueviolet;
@@ -50,10 +50,10 @@ option{
         color: blue;
     }
     100%{
-       
         color: green;
     }
 }
+
 #anima-time {
 /*
     animation-name: anda;
