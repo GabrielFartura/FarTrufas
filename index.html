@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
-    <title>FarTrufas</title>
+    <title>Trufas Três Irmãos</title>
 </head>
 <body>
-
-    <h1 id="anima-time">FarTrufas</h1> 
+    <img class="img" src="Imagens/logo trufa.jpg" alt="Logo da marca">
+    <!-- <h1 id="anima-time">FarTrufas</h1>  -->
     
 
-        <form action="https://api.sheetmonkey.io/form/bTCWgW4AxCBd8PvtVapF6K" method="post">
+    <form action="https://api.sheetmonkey.io/form/bTCWgW4AxCBd8PvtVapF6K" method="post">
             
             <label>Nome:</label>
             <input type="text" required maxlength="15" placeholder="digite seu nome" name="nome">
@@ -22,6 +22,10 @@
             <label>
                 <input type="checkbox" name="sabor" value="M">
                 Morango
+            </label>
+            <label>
+                <input type="checkbox" name="sabor" value="beij">
+                Beijinho de coco
             </label>
             <label>
                 <input type="checkbox" name="sabor" value="B">
@@ -43,78 +47,79 @@
                 <input type="checkbox" name="sabor" value="McN">
                 Morango com Nutela
             </label>
+    
+
+        <hr>
+<h3 id="h3">Tabela de preços</h3>
+<br>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>DOCE</th>
+            <th>SABOR</th>
+            <th>PREÇO</th>
+        </tr>
+    </thead>
+    <tfoot>
+     
+    </tfoot>
+    <tbody>
+        <tr>
+            <td>TRUFA</td>
+            <td>Morango</td>
+            <td>2.00</td>
+        </tr>
+        <tr>
+            <td >TRUFA</td>
+            <td>Beijinho de coco</td>
+            <td>2.00</td>
+        </tr>
+        <tr>
+            <td>TRUFA</td>
+            <td>Brigadeiro</td>
+            <td>2.00</td>
+        </tr>
+        <tr>
+            <td >TRUFA</td>
+            <td>Brigadeiro Branco</td>
+            <td>2.00</td>
+        </tr>
+        <tr>
+            <td>TRUFA</td>
+            <td>Ninho</td>
+            <td>2.00</td>
+        </tr>
+        <tr>
+            <td >TRUFA</td>
+            <td>Ninho com Nutela</td>
+            <td>3.00</td>
+        </tr>
+        <tr>
+            <td>TRUFA</td>
+            <td>Morango com Nutela</td>
+            <td>3.00</td>
+        </tr>
+    </tbody>
+   
+</table>
+
            
            <hr>
-            
-            <h3 id="h3">Tabela de preços</h3>
-            
-            <br>
 
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>DOCE</th>
-                        <th>SABOR</th>
-                        <th>PREÇO</th>
-                    </tr>
-                </thead>
-                <tfoot>
 
-                </tfoot>
-                <tbody>
-                    <tr>
-                        <td>TRUFA</td>
-                        <td>Morango</td>
-                        <td>2.00</td>
-                    </tr>
-                    <tr>
-                        <td >TRUFA</td>
-                        <td>Beijinho de coco</td>
-                        <td>2.00</td>
-                    </tr>
-                    <tr>
-                        <td>TRUFA</td>
-                        <td>Brigadeiro</td>
-                        <td>2.00</td>
-                    </tr>
-                    <tr>
-                        <td >TRUFA</td>
-                        <td>Brigadeiro Branco</td>
-                        <td>2.00</td>
-                    </tr>
-                    <tr>
-                        <td>TRUFA</td>
-                        <td>Ninho</td>
-                        <td>2.00</td>
-                    </tr>
-                    <tr>
-                        <td >TRUFA</td>
-                        <td>Ninho com Nutela</td>
-                        <td>3.00</td>
-                    </tr>
-                    <tr>
-                        <td>TRUFA</td>
-                        <td>Morango com Nutela</td>
-                        <td>3.00</td>
-                    </tr>
-                </tbody>
-
-           </table>
-
-           
-           <hr>
-        
            <h6><b>Para pegar sua trufa procure na escola Gabriel Fartura ou João Fartura</b></h6>
 
 
             <h4>Quantidade de trufas:</h4> 
+            <h6><b>Se escolheu mais de um sabor, diga quantos você que de cada sabor</b></h6>
 
             <label>
-                <input type="text" name="quantidade" placeholder=" diga quantas trufas você quer
-                Se você escolheu mais de um sabor diga quantas você que de cada">
+                <input type="text" name="quantidade" >
             </label>
             
-<hr>
+            <hr>
+
             <label>
                 <button type="submit">Enviar</button>
             </label>
