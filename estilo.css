@@ -2,17 +2,16 @@ body{
     font-family: sans-serif;
     font-style: italic;
     text-align: center;
-    background-color: rgb(55, 5, 119);
+    background-color: #ffbaba;
+}
+.img{
+    width: 250px;
 }
 h1{
     color: aquamarine;
 }
 label, h6, h4{
-    color: white;
-}
-option{
-    background-color: rgb(55, 5, 119);
-    color: white;
+    color: rgb(0, 0, 0);
 }
 #h3{
     text-align: left;
@@ -49,6 +48,8 @@ option{
 .table-alternate tbody td, .table-alternate tbody tr:first-child td, .table-alternate tbody tr:last-child td{
     border: 1px solid #ddd;
 }
+
+
 
 @keyframes anda {
     0%{
