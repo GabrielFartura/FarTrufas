@@ -24,11 +24,11 @@ label, h6, h4{
     text-align: left;
 }
 .table td{
-    background: #535353;
+    background: white;
     padding: .75em;
 }
 .table th{
-    background: #ccc;
+    background: white;
     padding: .75em;
 }
 .table tbody tr td{
@@ -42,7 +42,7 @@ label, h6, h4{
 }
 
 .table tbody tr:nth-child(even) td{
-    background: #eeeeee;
+    background: white;
 }
 
 .table-alternate tbody td, .table-alternate tbody tr:first-child td, .table-alternate tbody tr:last-child td{
