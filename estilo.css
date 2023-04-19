@@ -7,6 +7,17 @@ body{
 .sabores{
     margin-left: 25px;
 }
+.input-n{
+    width: 100px ;
+}
+.input-t{
+    height: 40px;
+    width: 250px;
+}
+.input-m{
+    height: 25px;
+    width: 25px;
+}
 .img{
     width: 250px;
 }
