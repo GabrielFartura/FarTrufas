@@ -11,14 +11,11 @@ body{
     width: 250px;
 }
 input{
-    border-radius: 5px;
     text-align: center;
 }
 .button-default{
     background-color: #49bf9d;
     color: white;
-    border-radius: 5px;
-    font-size: .8em;
     width: 75px;
     height: 50px;
 
