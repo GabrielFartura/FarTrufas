@@ -10,6 +10,22 @@ body{
 .img{
     width: 250px;
 }
+input{
+    border-radius: 5px;
+    text-align: center;
+}
+.button-default{
+background-color: #49bf9d;
+    border: 2px solid #49bf9d;
+    color: white;
+    padding: .75em 1.5em;
+    border-radius: 5px;
+    font-size: .8em;
+    display: inline-block;
+    width: 75px;
+    height: 50px;
+
+}
 #h1{
 visibility: hidden;
 }
