@@ -23,90 +23,122 @@
             <label>Nome:</label>
             <input type="text" required maxlength="15" placeholder="digite seu nome" name="nome">
             <br>
+        
+            <hr>
+        
+             <h3 id="h3">Tabela de preços</h3>
+            <br>
             
-            <p>Trufa de:</p>
-            <label class="sabores">
-                <input type="checkbox" name="sabor" value="M">
-                Morango
-            </label>
-            <label class="sabores">
-                <input type="checkbox" name="sabor" value="beij">
-                Beijinho de coco
-            </label>
-            <label class="sabores">
-                <input type="checkbox" name="sabor" value="B">
-                Brigadeiro
-            </label>
-            <label class="sabores">
-                <input type="checkbox" name="sabor" value="BB">
-                Brigadeiro Branco
-            </label>
-            <label class="sabores">
-                <input type="checkbox" name="sabor" value="N">
-                Ninho
-            </label>
-            <label class="sabores">
-                <input type="checkbox" name="sabor" value="NcN">
-                Ninho com Nutela
-            </label>
-            <label class="sabores">
-                <input type="checkbox" name="sabor" value="McN">
-                Morango com Nutela
-            </label>
-    
-        <h6>Se você clicar na palavra ja marca</h6>
-
-        <hr>
-<h3 id="h3">Tabela de preços</h3>
-<br>
-
-<table class="table">
-    <thead>
-        <tr>
-            <th>DOCE</th>
-            <th>SABOR</th>
-            <th>PREÇO</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>TRUFA</td>
-            <td>Morango</td>
-            <td>2.00</td>
-        </tr>
-        <tr>
-            <td >TRUFA</td>
-            <td>Beijinho de coco</td>
-            <td>2.00</td>
-        </tr>
-        <tr>
-            <td>TRUFA</td>
-            <td>Brigadeiro</td>
-            <td>2.00</td>
-        </tr>
-        <tr>
-            <td >TRUFA</td>
-            <td>Brigadeiro Branco</td>
-            <td>2.00</td>
-        </tr>
-        <tr>
-            <td>TRUFA</td>
-            <td>Ninho</td>
-            <td>2.00</td>
-        </tr>
-        <tr>
-            <td >TRUFA</td>
-            <td>Ninho com Nutela</td>
-            <td>3.00</td>
-        </tr>
-        <tr>
-            <td>TRUFA</td>
-            <td>Morango com Nutela</td>
-            <td>3.00</td>
-        </tr>
-    </tbody>
-   
-</table>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>SELICIONAR</th>
+                        <th>DOCE</th>
+                        <th>SABOR</th>
+                        <th>PREÇO</th>
+                        <th>QUANTIDADE</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    
+                </tfoot>
+                
+                <tbody>
+                    <tr>
+                        <td>
+                            <label>
+                                <input type="checkbox" value="M" name="sabor">
+                            </label>
+                        </td>
+                        <td>TRUFA</td>
+                        <td class="anima-time">Morango</td>
+                        <td>2.00</td>
+                        <td>
+                            <input type="number" min="0" max="100" name="quantidade-M" value="quantidade-M">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                <input type="checkbox" value="Biej" name="sabor">
+                            </label>
+                        </td>
+                        <td >TRUFA</td>
+                        <td class="anima-time">Beijinho de coco</td>
+                        <td>2.00</td>
+                        <td>
+                            <input type="number" min="0" max="100" name="quantidade-Bei" value="quantidade-Bei">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                <input type="checkbox" value="BR" name="sabor">
+                            </label>
+                        </td>
+                        <td>TRUFA</td>
+                        <td class="anima-time">Brigadeiro</td>
+                        <td>2.00</td>
+                        <td>
+                            <input type="number" min="0" max="100" name="quantidade-BR" value="quantidade-BR">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            
+                            <label>
+                                <input type="checkbox" value="BRB" name="sabor">
+                            </label>
+                        </td>
+                        <td >TRUFA</td>
+                        <td class="anima-time">Brigadeiro Branco</td>
+                        <td>2.00</td>
+                        <td>
+                            <input type="number" min="0" max="100" name="quantidade-BRB" value="quantidade-BRB">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                <input type="checkbox" value="N" name="sabor">
+                            </label>
+                        </td>
+                        <td>TRUFA</td>
+                        <td class="anima-time">Ninho</td>
+                        <td>2.00</td>
+                        <td>
+                            <input type="number" min="0" max="100" name="quantidade-n" value="quantidade-N">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                <input type="checkbox" value="NcN" name="sabor">
+                            </label>
+                        </td>
+                        <td >TRUFA</td>
+                        <td class="anima-time">Ninho com Nutela</td>
+                        <td>3.00</td>
+                        <td>
+                            <input type="number" min="0" max="100" name="quantidade-NcN" value="quantidade-NcN">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                <input type="checkbox" value="McN" name="sabor">
+                            </label>
+                        </td>
+                        <td>TRUFA</td>
+                        <td class="anima-time">Morango com Nutela</td>
+                        <td>3.00</td>
+                        <td>
+                            <input type="number" min="0" max="100" name="quantidade-McN" value="quantidade-McN">
+                        </td>
+                    </tr>
+                </tbody>
+            
+            </table>
 
            
            <hr>
@@ -117,10 +149,6 @@
 
             <h4>Quantidade de trufas:</h4> 
             <h6><b>Se escolheu mais de um sabor, diga quantos você que de cada sabor</b></h6>
-
-            <label>
-                <input required type="text" name="quantidade" >
-            </label>
         
             <h6><b>Informarcão adicional(opcional)</b></h6>
             <label>
@@ -130,7 +158,7 @@
             <hr>
 
             <label>
-                <button type="submit">Enviar</button>
+                <button class="button-default" type="submit">Enviar</button>
             </label>
     </form>
 </body>
