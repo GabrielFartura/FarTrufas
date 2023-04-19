@@ -13,6 +13,9 @@ body{
 input{
     text-align: center;
 }
+buttton{
+        border-radius: 5px;
+}
 .button-default{
     background-color: #49bf9d;
     color: white;
